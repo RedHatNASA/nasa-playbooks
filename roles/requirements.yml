@@ -1,0 +1,7 @@
+---
+- src: https://github.com/RedHatNASA/ansible-role-rhv-vm
+  scm: git
+- src: https://github.com/RedHatNASA/ansible-role-satellite
+  scm: git
+- src: https://github.com/RedHatNASA/ansible-role-ansible-automation-platform
+  scm: git
