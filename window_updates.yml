@@ -5,4 +5,4 @@
     - name: Install Windows Updates
       win_updates:
         category_names: "{{ categories | default(omit) }}"
-        reboot: '{{ reboot_server | default(yes) }}
+        reboot: "{{ reboot_server | default(yes) }}"
