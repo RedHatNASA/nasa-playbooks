@@ -7,3 +7,5 @@
   scm: git
 - src: https://github.com/RedHatNASA/ansible-role-ansible-automation-platform
   scm: git
+- src: https://github.com/RedHatNASA/ansible-role-patch
+  scm: git
