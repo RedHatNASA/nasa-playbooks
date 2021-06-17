@@ -23,7 +23,7 @@
     - name: Kill MS Edge
       win_command: taskkill /IM "MicrosoftEdge.exe" /F
       register: win
-      when: cpu_usage > '75' or mem_available < '1024' 
+      when: cpu_usage > '2' or mem_available < '1024' 
 
     - name: Restart MS Edge
       win_shell: start microsoft-edge:https://redhat.com
