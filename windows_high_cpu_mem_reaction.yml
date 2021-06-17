@@ -21,7 +21,7 @@
         mem_available: "{{ mem_usage_raw.stdout_lines[28].split(':')[2][:-3] | trim }}"
 
     - name: Kill MS Edge
-      win_command: taskkill /IM "MicrosoftEdge.exe" /F
+      win_command: taskkill /IM "msedge.exe" /F
       register: win
       when: cpu_usage > '75' or mem_available < '4096' 
 
