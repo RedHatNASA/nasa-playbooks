@@ -1,4 +1,8 @@
 ---
+- src: https://github.com/RedHatNASA/ansible-role-kvm
+  scm: git
+- src: https://github.com/RedHatNASA/ansible-role-kvm-vm
+  scm: git
 - src: https://github.com/RedHatNASA/ansible-role-rhv-vm
   scm: git
 - src: https://github.com/RedHatNASA/ansible-role-vmware-vm
