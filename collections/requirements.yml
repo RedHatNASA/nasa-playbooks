@@ -3,3 +3,4 @@ collections:
   - community.general
   - community.vmware
   - ansible.windows
+  - ovirt.ovirt
